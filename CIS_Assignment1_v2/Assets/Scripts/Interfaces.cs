@@ -1,8 +1,8 @@
 ﻿﻿/*
 * (Matt Kirchoff)
-* (File Name)
-* (Assignment1)
-* (Describe, in general, the code contained.)
+* (Interfaces)
+* (Assignment2)
+* (Contains the interfaces used for enemies.)
 */
 
 using System.Collections;

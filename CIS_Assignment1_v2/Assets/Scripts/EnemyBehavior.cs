@@ -1,8 +1,8 @@
 ﻿﻿/*
 * (Matt Kirchoff)
-* (File Name)
-* (Assignment1)
-* (Describe, in general, the code contained.)
+* (EnemyBehavior)
+* (Assignment2)
+* (Enemy behavior classes. various enemy speeds and takes from enemy behavior interface)
 */
 
 using System.Collections;

@@ -1,8 +1,8 @@
 ﻿﻿/*
 * (Matt Kirchoff)
-* (File Name)
-* (Assignment1)
-* (Describe, in general, the code contained.)
+* (Player)
+* (Assignment2)
+* (Player controller, controls score and reloading, player movement.)
 */
 
 using System.Collections;
@@ -78,9 +78,14 @@ public class Player : MonoBehaviour
             Debug.Log("You lose");
         }
     }
+    void OnBecameInvisible()
+    {
+        SceneManager.LoadScene(sceneName: "EndMenu");
+        Destroy(gameObject);
+    }
 
-     
-void FixedUpdate()
+
+    void FixedUpdate()
     {
         rb2d.MovePosition(rb2d.position + moveSpeed * Time.fixedDeltaTime);
     }

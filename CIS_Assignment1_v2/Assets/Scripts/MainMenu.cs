@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+* (Matt Kirchoff)
+* (MainMenu)
+* (Assignment2)
+* (Interface to switch scenes to play game.)
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

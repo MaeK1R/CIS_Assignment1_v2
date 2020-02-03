@@ -192,7 +192,9 @@ MonoBehaviour:
 
     Esc to exit
 
-    R to restart'
+    R to restart
+
+    M for Menu'
 --- !u!222 &345190034
 CanvasRenderer:
   m_ObjectHideFlags: 0

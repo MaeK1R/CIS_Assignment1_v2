@@ -1,8 +1,8 @@
 ﻿﻿/*
 * (Matt Kirchoff)
-* (File Name)
-* (Assignment1)
-* (Describe, in general, the code contained.)
+* (FastEnemy)
+* (Assignment2)
+* (Class Fast enemy would be instatiated in)
 */
 
 using System.Collections;

@@ -1,8 +1,8 @@
 ﻿/*
 * (Matt Kirchoff)
-* (File Name)
-* (Assignment1)
-* (Describe, in general, the code contained.)
+* (EnemySpawner)
+* (Assignment2)
+* (Spawns enemies outside of screen.)
 */
 
 using System.Collections;

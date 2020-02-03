@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+* (Matt Kirchoff)
+* (Enemy)
+* (Assignment2)
+* (Enemy class, determines enemy attributes.)
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

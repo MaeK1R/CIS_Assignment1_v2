@@ -1,4 +1,12 @@
-﻿﻿using System.Collections;
+﻿/*
+* (Matt Kirchoff)
+* (TestEnemy)
+* (Assignment2)
+* (Enemy code used to test player mechanics in game)
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,6 +36,15 @@ public class TestEnemy : MonoBehaviour
         {
             Debug.Log("You lose");
         }
+
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "enemy")
+        {
+            Physics2D.IgnoreLayerCollision(8,9);
+        }
+    }
+     
 
 }
